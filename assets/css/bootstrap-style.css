@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+/* Bootstrap overrides */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+/* Navigation bar */
+.fa-sitemap,
+.fa-fa-upload {
+  color: #21303A;	
+}
+span.fa.expand-icon.fa-plus,
+span.fa.expand-icon.fa-minus,
+span.fa.fa-circle-o {
+  font-size: 10px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+.title {
+	margin-left: 14px;
+  font-size: 14px;
+  color: #21303A;
+}
+/* Select file */
+.file {
+	font-size: 14px;
+	font-weight: 600;
+}
+.comment {
+	margin-left: 20px;
+	font-size: 12px;
+	font-weight: 400;
+	color: grey;
+}
+.btn-default.focus {
+  background-color: #fff;
+}
+.btn-default:hover {
+  background-color: #fff;
+}
+.form-control {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+}
+.form-control:focus { 
+  border-color: #ccc;
+  outline: 0;
+  webkit-box-shadow: none;
+  box-shadow: none;
+}
+.input-sm {
+  font-size: 13px;
+}
+label {
+  margin-bottom: 0px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.btn-search {
+  background-color: #21303A;
+  color: #fff;
+}
+.btn-search:hover {
+  color: #fff;
+}
+.btn-flush:hover {
+  background-color: #E94F37;
+  border-color: #E94F37;
+  color: #F6F7EB;
+}
+.btn-flush {
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-clear:hover {
+  background-color: #E94F37;
+  border-color: #E94F37;
+  color: #F6F7EB;
+}
+.btn-clear {
+  background-color: #fff;
+  border-color: #ccc;
+}
+pre {
+  font-size: 11px;
+}
+.hash {
+  color: #ACCBE1;
+}
+.label .id {
+  color: #3470A2;
+}
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #ddd;
+}
+.hdr {
+  font-weight: 600;
+}
